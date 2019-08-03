@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+html{
+ scroll-behaviour:smooth;
+  box-sizing:border-box;
+}
+body{
+  background: url("abstract-painting-acrylic-acrylic-paint-1517078.jpg");
+  opacity:0.8;
+  font-family: 'Didact Gothic', sans-serif;
+  padding:2%;
+  text-align:center;
+
+}
+.click{
+  color:orange;
+  text-decoration: none;
+  text-transform: uppercase;
+  border:1px solid blue;
+  padding:20px;
+  fill:none;
+  background:transparent;
+  font-weight:bold;
+
+}
+.click a:hover{
+color:orange;
+}
+.space{
+  padding:5px;
+}
+.lom a{
+  color:orange;
+  text-decoration: none;
+}
+.lom a:hover{
+  color:purple;
+}
+.look{
+  display:flex;
+  flex-direction:row;
+  flex:1fr 1fr;
+  justify-content: space-between;
+ 
+  padding:10px;
+}
+.boss{
+  margin-top:-20%;
+}
+.open{
+  display:flex;
+  flex-direction:column;  
+  justify-content: space-between;
+  margin:20px;
+}
+.message{
+  color:indigo;
+  align-content: center;
+  text-align:justify;
+  padding:20px;
+}
+.none{
+  background:linear-gradient(35deg,#ccffff,rgb(204,204,255));
+}
+.head{
+  color:purple;
+  font-weight:bold;
+  background:white;
+  opacity:.8;
+  
+  text-align: center;
+
+
+}
+#register-form{
+  width:70vw;
+  background:white;
+  padding:24px;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+.input-items{
+  width:90%;
+  padding:10px;
+  margin:10px;
+}
+label{
+  font-size:1.1rem;
+  margin:12px 0 20px 4px;
+  margin:0;
+}
+#terms-conditions{
+  margin:0;
+  margin:12px 0 18px 0;
+}
+.put,option{
+  font-family: 'Didact Gothic', sans-serif;
+  
+}
